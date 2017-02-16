@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Order ID: "
+        android:textColor="#191919"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/order"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/order"
+        android:id="@+id/orderid"
+        android:text="1111111111111"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/costtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/order"
+        android:layout_below="@+id/order"
+        android:layout_marginTop="15dp"
+        android:text="Cost: "
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/costtext"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/costtext"
+        android:text="Rs.20000"
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/costtext"
+        android:layout_alignLeft="@id/costtext"
+        android:layout_marginTop="10dp"
+        android:text="Name: "
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/nametext"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/nametext"
+        android:text="Joel"
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/costtext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/name"
+        android:background="#E6E6E6" />
+
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/costtext"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/view"
+        android:textSize="14dp"
+        android:textColor="#757575"
+        android:text="Email: "/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/emailtext"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/emailtext"
+        android:text="Joel"
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+
+
+    <TextView
+        android:id="@+id/addresstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametext"
+        android:layout_alignLeft="@id/nametext"
+        android:layout_marginTop="10dp"
+        android:text="Address: "
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addresstext"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/addresstext"
+        android:text="Jblaaaaa"
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+
+
+
+    <Button
+        android:id="@+id/orderedprod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addresstext"
+        android:layout_alignLeft="@id/addresstext"
+        android:layout_marginTop="10dp"
+        android:text="Ordered Products"
+        android:textSize="14dp"
+        android:textColor="#757575"/>
+</RelativeLayout>  

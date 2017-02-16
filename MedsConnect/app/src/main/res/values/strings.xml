@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">MedConnect</string>
+    <string name="action_settings">Settings</string>
+    <string name="hi">Hello</string>
+    <string name="myaccount">My Account</string>
+    <string name="productdetails">Product Details</string>
+    <string name="customerdetails">Customer Details</string>
+    <string name="upload">Upload</string>
+    <string name="noaccount">No account?</string>
+    <string name="Login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+    <string name="username">Email Address</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="name">Name</string>
+    <string name="contact">Phone no</string>
+    <string name="address">Address</string>
+    <string name="type">Type</string>
+    <string name="customer">Customer</string>
+    <string name="doctor">Doctor</string>
+    <string name="pharmacist">Pharmacist</string>
+    <string name="Username">Email Address</string>
+    <string name="Password">Password</string>
+    <string name="suggestions">Suggestions...</string>
+    <string name="packdetails">Package Details: </string>
+    <string name="manufact">Manufacturer: </string>
+    <string name="price">Price: </string>
+    <string name="compo">Composition: </string>
+    <string name="sub">Cheapest Generic Substitute: </string>
+    <string name="addorderdetails">Additional Order Details:</string>
+    <string name="orderdetails">Order Details</string>
+    <string name="cart">My Cart</string>
+    <string name="addtocart">Add to Cart</string>
+    <string-array name="customer_titles">
+        <item>Home</item>
+        <item>Upload Prescription</item>
+        <item>E-Prescription</item>
+        <item>MedDetails</item>
+        <item>Deodrants</item>
+        <item>Oral Products</item>
+        <item>First Aid Products</item>
+        <item>Baby Care</item>
+        <item>All Products</item>
+        <item>My Account</item>
+        <item>Suggestions</item>
+        <item>Details and Alternatives</item>
+        <item>Product Details</item>
+        <item>My Cart</item>
+    </string-array>
+    <string-array name="customer_list_titles">
+        <item>Home</item>
+        <item>Upload Prescription</item>
+        <item>E-Prescription</item>
+        <item>MedDetails</item>
+        <item>Deodrants</item>
+        <item>Oral Products</item>
+        <item>First Aid Products</item>
+        <item>Baby Care</item>
+        <item>All Products</item>
+        <item>My Account</item>
+    </string-array>
+    <string-array name="doctor_titles">
+        <item>Home</item>
+        <item>E-Prescription</item>
+        <item>MedDetails</item>
+        <item>My Account</item>
+        <item>Suggestions</item>
+        <item>Details and Alternatives</item>
+    </string-array>
+    <string-array name="doctor_list_titles">
+        <item>Home</item>
+        <item>E-Prescription</item>
+        <item>MedDetails</item>
+        <item>My Account</item>
+    </string-array>
+    <string-array name="pharmacist_titles">
+        <item>Home</item>
+        <item>Received Prescriptions</item>
+        <item>Received Orders</item>
+        <item>MedDetails</item>
+        <item>My Account</item>
+        <item>Suggestions</item>
+        <item>Details and Alternatives</item>
+        <item>Customer Details</item>
+        <item>Ordered Products</item>
+    </string-array>
+    <string-array name="pharmacist_list_titles">
+        <item>Home</item>
+        <item>Received Prescriptions</item>
+        <item>Received Orders</item>
+        <item>MedDetails</item>
+        <item>My Account</item>
+    </string-array>
+    <string name="quantity">Enter quantity:</string>
+    <string name="order">Order</string>
+    <string name="searchmed">Search for a medicine...</string>
+    <string name="medeg">eg. crocin</string>
+    <string name="search">Search</string>
+    <string name="drawerOpen">Open Drawer</string>
+    <string name="drawerClose">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_doctor_top">DoctorTopActivity</string>
+    <string name="title_activity_pharmacist_top">PharmacistTopActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_med_suggestions">MedSuggestionsActivity</string>
+    <string name="title_activity_med_details_alternatives">MedDetailsAlternativesActivity</string>
+</resources>
